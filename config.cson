@@ -1,0 +1,93 @@
+"*":
+  Zen:
+    gutter: true
+    minimap: true
+    tabs: "multiple"
+    width: 100
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f7c0734b-ae7f-4059-9005-31ff5a4ff667"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    python:
+      default_beautifier: "yapf"
+      sort_imports: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "git-plus"
+      "merge-conflicts"
+      "git-time-machine"
+      "git-diff"
+      "sync-settings"
+    ]
+    themes: [
+      "seti-ui"
+      "Chromodynamics"
+    ]
+  "custom-title":
+    template: "<%= relativeFilePath %>"
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 15
+    invisibles: {}
+    preferredLineLength: 79
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "dcb9a7ea-5f45-fbd8-6105-536f4e63d77e"
+  "highlight-selected":
+    ignoreCase: true
+  linter:
+    showErrorPanel: false
+  "linter-flake8":
+    executablePath: "C:\\Python27-x64\\Scripts\\flake8.exe"
+    pep8ErrorsToWarnings: true
+  "merge-conflicts":
+    gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
+  minimap:
+    displayMinimapOnLeft: true
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "seti-ui":
+    themeColor: "Steel"
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "sync-settings":
+    _analyticsUserId: "c38cbe84-571a-4342-a4bc-a17a6a1e3b72"
+    personalAccessToken: "22f6f72afe1d6fbe703bd824da6e38582f99ea67"
+  welcome:
+    showOnStartup: false
+".console.python.text":
+  editor:
+    preferredLineLength: 79
+    tabLength: 4
+".diff.source":
+  editor:
+    preferredLineLength: 79
+    tabLength: 4
+".python.regexp.source":
+  editor:
+    preferredLineLength: 79
+".python.source":
+  editor:
+    preferredLineLength: 79
+".python.text.traceback":
+  editor:
+    preferredLineLength: 79
+    tabLength: 4

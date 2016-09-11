@@ -1,0 +1,48 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+'.source.python':
+  'encoding':
+    'prefix': 'coding'
+    'body': '# -*- coding: utf-8 -*-'
+  'DocString Template':
+    'prefix': 'pydoc'
+    'body': '''
+    """
+    Title:       Template
+    Description: Template for creating a new script for Maya
+    Copyright:   Mackevision 2016 (Keep the year updated)
+    Author:      Creators Name
+    Updated:     Name: Date (Exp: Matthew Worley: 11 Feb, 2016)
+    """
+    '''
+
+  'Skip Method Coveage':
+    'prefix': 'no coverage'
+    'body': ' # pragma: no cover'
+
+  'import maya cmds':
+    'prefix': 'from maya'
+    'body': 'from maya import cmds'
+
+  'MV Logger':
+    'prefix': 'log'
+    'body': 'mv_log.log(\'\', \'\')'
