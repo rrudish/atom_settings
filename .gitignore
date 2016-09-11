@@ -93,6 +93,9 @@ storage/
 compile-cache/
 dev/
 .npm
+.apm
+blob-store/
+packages/
 .node-gyp/
 git-time-machine/
 split-diff/
