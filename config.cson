@@ -19,13 +19,11 @@
     disabledPackages: [
       "git-plus"
       "merge-conflicts"
-      "git-time-machine"
       "git-diff"
-      "sync-settings"
     ]
     themes: [
       "seti-ui"
-      "Chromodynamics"
+      "atom-monokai"
     ]
   "custom-title":
     template: "<%= relativeFilePath %>"
@@ -44,12 +42,11 @@
   linter:
     showErrorPanel: false
   "linter-flake8":
-    executablePath: "C:\\Python27-x64\\Scripts\\flake8.exe"
+    executablePath: "C:\\Python27\\Scripts\\flake8.exe"
     pep8ErrorsToWarnings: true
   "merge-conflicts":
     gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
   minimap:
-    displayMinimapOnLeft: true
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0
