@@ -4,14 +4,6 @@
     minimap: true
     tabs: "multiple"
     width: 100
-  "atom-beautify":
-    general:
-      _analyticsUserId: "f7c0734b-ae7f-4059-9005-31ff5a4ff667"
-      analytics: false
-      beautifyEntireFileOnSave: false
-    python:
-      default_beautifier: "yapf"
-      sort_imports: true
   "bracket-matcher":
     autocompleteBrackets: false
   core:
@@ -23,7 +15,7 @@
     ]
     themes: [
       "seti-ui"
-      "atom-monokai"
+      "Chromodynamics"
     ]
   "custom-title":
     template: "<%= relativeFilePath %>"
@@ -65,9 +57,6 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
-  "sync-settings":
-    _analyticsUserId: "c38cbe84-571a-4342-a4bc-a17a6a1e3b72"
-    personalAccessToken: "22f6f72afe1d6fbe703bd824da6e38582f99ea67"
   welcome:
     showOnStartup: false
 ".console.python.text":
