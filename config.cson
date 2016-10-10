@@ -34,11 +34,14 @@
   linter:
     showErrorPanel: false
   "linter-flake8":
-    executablePath: "C:\\Python27\\Scripts\\flake8.exe"
+    executablePath: "C:\\Python34\\Scripts\\flake8.exe"
+    flakeErrors: true
     pep8ErrorsToWarnings: true
   "merge-conflicts":
     gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
   minimap:
+    charHeight: 3
+    charWidth: 2
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0
@@ -64,6 +67,10 @@
     preferredLineLength: 79
     tabLength: 4
 ".diff.source":
+  editor:
+    preferredLineLength: 79
+    tabLength: 4
+".kv.source":
   editor:
     preferredLineLength: 79
     tabLength: 4

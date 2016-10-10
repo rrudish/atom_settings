@@ -45,3 +45,6 @@
   'alt-right': 'pane:show-next-item'
   'alt-shift-left': 'window:focus-previous-pane'
   'alt-shift-right': 'window:focus-next-pane'
+  'ctrl-k left': 'pane:split-left-and-move-active-item'
+  # 'ctrl-k right': 'window:move-active-item-to-pane-on-right'
+  'ctrl-k right': 'pane:split-right-and-move-active-item'
