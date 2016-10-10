@@ -2,6 +2,7 @@ autocomplete-python@1.8.6
 Chromodynamics@0.0.7
 custom-title@1.0.1
 highlight-selected@0.11.2
+language-kivy@0.1.0
 language-restructuredtext@1.0.0
 linter@1.11.18
 linter-flake8@1.13.4
