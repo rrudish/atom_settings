@@ -1,0 +1,522 @@
+// Frame at time 1
+
+SettingsOutput vraySettingsOutput {
+  img_width=4500;
+  img_height=2532;
+  img_pixelAspect=0.9995625;
+  img_file="//mvusaprod4/DTW_1509_05804_MER_W166/SCENE_010/SHOT_0010_000/RENDER/3D/Final/CAM_W166_EXT_360/CAM_W166_EXT_360..exr";
+  img_dir="";
+  img_file_needFrameNumber=1;
+  img_separateAlpha=0;
+  img_noAlpha=0;
+  img_dontSaveRgbChannel=0;
+  img_deepFile=0;
+  img_rawFile=1;
+  img_rawFileVFB=0;
+  anim_start=1;
+  anim_end=32;
+  anim_frame_padding=4;
+  anim_renumber_on=0;
+  anim_renumber_start=0;
+  anim_renumber_step=1;
+  anim_ren_frame_start=0;
+  frame_start=1;
+  frames_per_second=1;
+  frames=List(
+      List(1, 32)
+  );
+  rgn_left=0;
+  rgn_width=4500;
+  rgn_top=0;
+  rgn_height=2532;
+  bmp_width=4500;
+  bmp_height=2532;
+  r_left=0;
+  r_width=4500;
+  r_top=0;
+  r_height=2532;
+  relements_separateFolders=0;
+  relements_separate_rgba=0;
+  relements_divider=".";
+  film_offset_x=0;
+  film_offset_y=-0;
+}
+
+CameraDefault CAM_W166_EXT_360Shape {
+  orthographic=0;
+}
+
+SettingsCamera vraySettingsCamera {
+  type=0;
+  height=400;
+  dist=2;
+  fov=-1;
+  auto_fit=1;
+  curve=1;
+}
+
+SettingsCameraDof vraySettingsCameraDof {
+  on=0;
+  aperture=5;
+  center_bias=0;
+  focal_dist=200;
+  sides_on=0;
+  sides_num=5;
+  rotation=0;
+  anisotropy=0;
+}
+
+SettingsMotionBlur vraySettingsMotionBlur {
+  on=0;
+  geom_samples=2;
+  low_samples=1;
+}
+
+RenderView renderView {
+  frame_samples=2;
+  clipping=1;
+  clipping_near=0.1;
+  clipping_far=10000;
+  zoom=1;
+  orthographic=0;
+  orthographicWidth=30;
+  mayaApperture=1.417323;
+}
+
+// Frame at time 2
+
+RenderView renderView {
+  transform=interpolate(
+    (1, TransformHex("0C642CBF3B413DBFC22AED395E70103C6316F3BBA6FB7F3FCC3D3DBF62612C3FC8A03C3C0000000000000000E22885C000000080C9FC8640000000E0EA5D5940"))
+  );
+  fov=interpolate(
+    (1, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (1, 35)
+  );
+}
+
+// Frame at time 3
+
+RenderView renderView {
+  transform=interpolate(
+    (2, TransformHex("32AD4BBF26161BBFD39C243AEBD9413C569B6DBC85F47F3F990E1BBF8CA44B3F533D993C00000000000000004F4580C0000000808A0F8B400000000087515B40"))
+  );
+  fov=interpolate(
+    (2, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (2, 35)
+  );
+}
+
+// Frame at time 4
+
+RenderView renderView {
+  transform=interpolate(
+    (3, TransformHex("BD8464BF8DC8E6BE22AE573A48215C3CD005CBBCF4E57F3F68AEE6BE386E643F0AD7E63C0000000000000000199375C0000000A072568E4000000000D8EA5D40"))
+  );
+  fov=interpolate(
+    (3, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (3, 35)
+  );
+}
+
+// Frame at time 5
+
+RenderView renderView {
+  transform=interpolate(
+    (4, TransformHex("3ADB75BF4BB28EBE48F4843A2454473CBFD11CBD18CB7F3FB68F8EBE3BA9753F777E243D0000000000000000AD4763C0000000405F639040000000E01FA26040"))
+  );
+  fov=interpolate(
+    (4, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (4, 35)
+  );
+}
+
+// Frame at time 6
+
+RenderView renderView {
+  transform=interpolate(
+    (5, TransformHex("1ED47EBFAEAEC3BD08F9993AAEDDD13B3B045FBD719D7F3FD041C3BD81727E3FA880603D0000000000000000F1F34840000000E00B0B9140000000A072AF6240"))
+  );
+  fov=interpolate(
+    (5, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (5, 35)
+  );
+}
+
+// Frame at time 7
+
+RenderView renderView {
+  transform=interpolate(
+    (6, TransformHex("D7E27EBFD2D2BE3D3E81A53A886CB1BB532D92BDE2577F3FC584BE3D053B7E3F0293923D0000000000000040C7447040000000C04DF3904000000040BCF36440"))
+  );
+  fov=interpolate(
+    (6, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (6, 35)
+  );
+}
+
+// Frame at time 8
+
+RenderView renderView {
+  transform=interpolate(
+    (7, TransformHex("CF8A75BFEFD7903EE53AA23A1C2EC4BCA435AFBDDDFC7E3F3153903E5190743F42EDB53D0000000000000060462B7D4000000060161B904000000040632B6740"))
+  );
+  fov=interpolate(
+    (7, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (7, 35)
+  );
+}
+
+// Frame at time 9
+
+RenderView renderView {
+  transform=interpolate(
+    (8, TransformHex("793662BF80B2EF3E15B38E3AA21845BDA7BEBEBDE2967E3FAC6DEE3EF1F3603FC1AFD63D000000000000006039BC84400000004077558D40000000A01F346940"))
+  );
+  fov=interpolate(
+    (8, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (8, 35)
+  );
+}
+
+// Frame at time 10
+
+RenderView renderView {
+  transform=interpolate(
+    (9, TransformHex("66C744BFF9BF233F6C2A5A3A0DD597BD8F1AB9BDAE3E7E3F7EA5223FF869433F0467EF3D000000000000000001588A40000000A0394B8940000000C0E0BA6A40"))
+  );
+  fov=interpolate(
+    (9, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (9, 35)
+  );
+}
+
+// Frame at time 11
+
+RenderView renderView {
+  transform=interpolate(
+    (10, TransformHex("8BE51DBF8381493F5F8B0B3AEBEAC7BDC0069EBDAF027E3F4DF3473FFFA71C3F6CD4FE3D000000000000004078398F4000000000F93D8440000000A021BF6B40"))
+  );
+  fov=interpolate(
+    (10, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (10, 35)
+  );
+}
+
+// Frame at time 12
+
+RenderView renderView {
+  transform=interpolate(
+    (11, TransformHex("AD16DEBE95A9663F925E8A39E259F0BD4E9B68BD9FD07D3F8DB2643F562DDC3E6581053E0000000000000060AE649140000000603B347C40000000C074706C40"))
+  );
+  fov=interpolate(
+    (11, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (11, 35)
+  );
+}
+
+// Frame at time 13
+
+RenderView renderView {
+  transform=interpolate(
+    (12, TransformHex("5FB567BE2F5C793FBFDB96389FC505BE6234F9BCC8AF7D3F781B773FE29A653ED959093E0000000000000020B77F92400000000041266D40000000804DDA6C40"))
+  );
+  fov=interpolate(
+    (12, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (12, 35)
+  );
+}
+
+// Frame at time 14
+
+RenderView renderView {
+  transform=interpolate(
+    (13, TransformHex("7359B9BBF3FE7F3F1AA831B446E608BE4B3246BAABB37D3FA2B27D3FACAFB73BD6E6083E00000000000000A0520D934000000000E95214400000008057F36C40"))
+  );
+  fov=interpolate(
+    (13, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (13, 35)
+  );
+}
+
+// Frame at time 15
+
+RenderView renderView {
+  transform=interpolate(
+    (14, TransformHex("7393573E42437A3F8A8A8B33A24B01BED3BFDE3C0EDB7D3F9F2A783F32C555BE7042043E0000000000000080D11B934000000020B1336CC00000000036CF6C40"))
+  );
+  fov=interpolate(
+    (14, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (14, 35)
+  );
+}
+
+// Frame at time 16
+
+RenderView renderView {
+  transform=interpolate(
+    (15, TransformHex("B4E3D13E3180693F78EBFF330A78E6BDE6294F3D4D0B7E3F80B7673F3149D0BE07ADFC3D0000000000000020267B9240000000209E3F7CC000000000508A6C40"))
+  );
+  fov=interpolate(
+    (15, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (15, 35)
+  );
+}
+
+// Frame at time 17
+
+RenderView renderView {
+  transform=interpolate(
+    (16, TransformHex("5D1A163F6C604F3F5CCDEDB20F57C3BD09648D3D20387E3F25EF4D3F120F15BF2824F13D00000000000000001915914000000080B7B584C0000000C0662C6C40"))
+  );
+  fov=interpolate(
+    (16, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (16, 35)
+  );
+}
+
+// Frame at time 18
+
+RenderView renderView {
+  transform=interpolate(
+    (17, TransformHex("C4413C3FE67A2D3FEA47683467459BBD0A7FA83D8C647E3F13642C3F32133BBF0621E53D00000000000000E08DE58D400000004025698AC0000000C079986B40"))
+  );
+  fov=interpolate(
+    (17, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (17, 35)
+  );
+}
+
+// Frame at time 19
+
+RenderView renderView {
+  transform=interpolate(
+    (18, TransformHex("42A55A3F8F27053F099D2835D5605FBD5D65B73DC8967E3FAC6B043FBF7059BF9EBAD63D00000000000000005C4088400000008010B18EC0000000E0968E6A40"))
+  );
+  fov=interpolate(
+    (18, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (18, 35)
+  );
+}
+
+// Frame at time 20
+
+RenderView renderView {
+  transform=interpolate(
+    (19, TransformHex("AA8C703FEB2DAF3E74B976351A1606BDDB1DB83D5DD37E3F3060AE3E2C726FBF71F1C33D00000000000000E0099E8140000000A0EA8E90C0000000608EE96840"))
+  );
+  fov=interpolate(
+    (19, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (19, 35)
+  );
+}
+
+// Frame at time 21
+
+RenderView renderView {
+  transform=interpolate(
+    (20, TransformHex("102B7D3F38E3173EE16DAF358F0C48BC47B4A63DA2217F3F415F173E274F7CBFBC91A83D00000000000000E00C617540000000E0271D91C0000000C003C16640"))
+  );
+  fov=interpolate(
+    (20, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (20, 35)
+  );
+}
+
+// Frame at time 22
+
+RenderView renderView {
+  transform=interpolate(
+    (21, TransformHex("31A57F3F9C8B57BDA376D63531CD673B6286893DAA6B7F3FD30E57BD0F117FBF2FB7893D0000000000000040BDF85D40000000C09A2191C00000006083886440"))
+  );
+  fov=interpolate(
+    (21, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (21, 35)
+  );
+}
+
+// Frame at time 23
+
+RenderView renderView {
+  transform=interpolate(
+    (22, TransformHex("0AD1773FA06B80BED6BAE135DCC3573C2336503D95A57F3F473E80BE827977BFD515573D00000000000000A0643C58C000000000498D90C000000040B3716240"))
+  );
+  fov=interpolate(
+    (22, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (22, 35)
+  );
+}
+
+// Frame at time 24
+
+RenderView renderView {
+  transform=interpolate(
+    (23, TransformHex("ED2D663F9115E0BE0F58FB3515188D3C0BF3103D39CD7F3F22E9DFBE460066BF9B34213D0000000000000060A4D172C0000000007AB88EC000000080A39A6040"))
+  );
+  fov=interpolate(
+    (23, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (23, 35)
+  );
+}
+
+// Frame at time 25
+
+RenderView renderView {
+  transform=interpolate(
+    (24, TransformHex("5EBE4B3F9CFF1ABF969800364FB18F3C7AE8BC3C7DE47F3FF4EE1ABF78A84BBFF758ED3C0000000000000080336E7EC000000000E1488BC000000040E4565E40"))
+  );
+  fov=interpolate(
+    (24, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (24, 35)
+  );
+}
+
+// Frame at time 26
+
+RenderView renderView {
+  transform=interpolate(
+    (25, TransformHex("0F072A3F7E613FBF7E0FE63572E5803C2711653C7AF17F3FA3563FBF6AFD29BF216EAC3C00000000000000605A4F84C000000000ADF786C0000000000A2C5C40"))
+  );
+  fov=interpolate(
+    (25, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (25, 35)
+  );
+}
+
+// Frame at time 27
+
+RenderView renderView {
+  transform=interpolate(
+    (26, TransformHex("70F8023FF5F55BBFC3F9EA35967D4B3CE364F23B27F97F3F13F05BBFEEF402BF2DD96C3C00000000000000404FA188C00000000006F881C000000000B6615A40"))
+  );
+  fov=interpolate(
+    (26, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (26, 35)
+  );
+}
+
+// Frame at time 28
+
+RenderView renderView {
+  transform=interpolate(
+    (27, TransformHex("08FEB03EAC3770BF7857C43524A8013C1E2A3F3BABFD7F3F7C3570BF6AFCB0BE292F0A3C00000000000000C076048CC0000000C0F7BE78C0000000E021B75840"))
+  );
+  fov=interpolate(
+    (27, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (27, 35)
+  );
+}
+
+// Frame at time 29
+
+RenderView renderView {
+  transform=interpolate(
+    (28, TransformHex("C055303E002D7CBF319FB635C6557C3BF4CE303A80FF7F3F812C7CBF665530BEB016803B00000000000000E0F13C8EC0000000E0761769C0000000C0B06B5740"))
+  );
+  fov=interpolate(
+    (28, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (28, 35)
+  );
+}
+
+// Frame at time 30
+
+RenderView renderView {
+  transform=interpolate(
+    (29, TransformHex("F39D86BB73FF7FBFF897A235B914D93AFEA7BBB6E9FF7F3F5CFF7FBFEB9D863B0615D93A0000000000000060771B8FC000000080EE2F0F400000000060BF5640"))
+  );
+  fov=interpolate(
+    (29, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (29, 35)
+  );
+}
+
+// Frame at time 31
+
+RenderView renderView {
+  transform=interpolate(
+    (30, TransformHex("0A913BBE35AB7BBFEAD404383BD2DB3AEFF092B9E9FF7F3F1EAB7BBFFE903B3EB6D4DE3A00000000000000C0A4778EC0000000404F116A4000000040BBB95640"))
+  );
+  fov=interpolate(
+    (30, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (30, 35)
+  );
+}
+
+// Frame at time 32
+
+RenderView renderView {
+  transform=interpolate(
+    (31, TransformHex("E5CDB8BE01BE6EBF11ECF73890B9463B743689BAA9FF7F3FAEBD6EBFB1CDB83E6217523B00000000000000000C758CC0000000601032794000000060411E5740")),
+    (32, TransformHex("5F0107BFF08159BF30CE903941EBBF3B21F158BB84FE7F3F9E8059BFB200073FFF43DC3B00000000000000A0C14989C0000000A099238240000000E009135840"))
+  );
+  fov=interpolate(
+    (31, 0.9500232),
+    (32, 0.9500232)
+  );
+  mayaFocalLength=interpolate(
+    (31, 35),
+    (32, 35)
+  );
+}
+

@@ -2,8 +2,17 @@
   Zen:
     gutter: true
     minimap: true
+    softWrap: true
     tabs: "multiple"
     width: 100
+  "atom-beautify":
+    general:
+      analytics: false
+      muteUnsupportedLanguageErrors: true
+    python:
+      sort_imports: true
+  "autocomplete-python":
+    useKite: false
   "bracket-matcher":
     autocompleteBrackets: false
   core:
@@ -11,8 +20,10 @@
     disabledPackages: [
       "git-plus"
       "merge-conflicts"
-      "git-diff"
     ]
+    openEmptyEditorOnStart: false
+    projectHome: "C:\\SVNDEVELOP\\"
+    telemetryConsent: "no"
     themes: [
       "seti-ui"
       "Chromodynamics"
@@ -20,23 +31,26 @@
   "custom-title":
     template: "<%= relativeFilePath %>"
   editor:
+    autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 15
+    fontSize: 17
     invisibles: {}
     preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "dcb9a7ea-5f45-fbd8-6105-536f4e63d77e"
   "highlight-selected":
     ignoreCase: true
   linter:
-    showErrorPanel: false
+    ignoreGlob: "*.{txt,xml,spec}"
+    lintPreviewTabs: false
   "linter-flake8":
-    executablePath: "C:\\Python34\\Scripts\\flake8.exe"
-    flakeErrors: true
+    executablePath: "C:\\Python27\\Scripts\\flake8.exe"
     pep8ErrorsToWarnings: true
+    pycodestyleErrorsToWarnings: true
   "merge-conflicts":
     gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
   minimap:
@@ -49,19 +63,20 @@
       "find-and-replaceDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-      linter: true
+      linter: false
       linterDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
   "seti-ui":
     themeColor: "Steel"
   "split-diff":
-    ignoreWhitespace: true
     leftEditorColor: "red"
     rightEditorColor: "green"
     syncHorizontalScroll: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
 ".console.python.text":
   editor:
     preferredLineLength: 79
