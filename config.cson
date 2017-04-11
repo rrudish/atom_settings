@@ -5,6 +5,12 @@
     softWrap: true
     tabs: "multiple"
     width: 100
+  "activate-power-mode":
+    comboMode:
+      streakTimeout: 3
+    particles:
+      size: {}
+    playAudio: {}
   "atom-beautify":
     general:
       analytics: false
