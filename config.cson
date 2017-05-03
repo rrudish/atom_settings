@@ -26,6 +26,7 @@
     disabledPackages: [
       "git-plus"
       "merge-conflicts"
+      "activate-power-mode"
     ]
     openEmptyEditorOnStart: false
     projectHome: "C:\\SVNDEVELOP\\"
@@ -39,7 +40,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 17
+    fontSize: 18
     invisibles: {}
     preferredLineLength: 79
     scrollPastEnd: true
@@ -51,12 +52,17 @@
   "highlight-selected":
     ignoreCase: true
   linter:
+    disabledProviders: [
+      "Flake8"
+    ]
     ignoreGlob: "*.{txt,xml,spec}"
     lintPreviewTabs: false
   "linter-flake8":
     executablePath: "C:\\Python27\\Scripts\\flake8.exe"
     pep8ErrorsToWarnings: true
     pycodestyleErrorsToWarnings: true
+  "linter-ui-default":
+    panelHeight: 110
   "merge-conflicts":
     gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
   minimap:
@@ -69,7 +75,7 @@
       "find-and-replaceDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-      linter: false
+      linter: true
       linterDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
