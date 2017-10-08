@@ -29,6 +29,11 @@
       "activate-power-mode"
     ]
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "github"
+      "git-diff"
+      "python-debugger"
+    ]
     projectHome: "C:\\SVNDEVELOP\\"
     telemetryConsent: "no"
     themes: [
@@ -40,7 +45,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 18
+    fontSize: 16
     invisibles: {}
     preferredLineLength: 79
     scrollPastEnd: true
@@ -49,12 +54,11 @@
     tabType: "soft"
   "exception-reporting":
     userId: "dcb9a7ea-5f45-fbd8-6105-536f4e63d77e"
+  "git-diff":
+    showIconsInEditorGutter: true
   "highlight-selected":
     ignoreCase: true
   linter:
-    disabledProviders: [
-      "Flake8"
-    ]
     ignoreGlob: "*.{txt,xml,spec}"
     lintPreviewTabs: false
   "linter-flake8":
@@ -62,7 +66,7 @@
     pep8ErrorsToWarnings: true
     pycodestyleErrorsToWarnings: true
   "linter-ui-default":
-    panelHeight: 110
+    panelHeight: 66
   "merge-conflicts":
     gitPath: "\"C:\\Program Files (x86)\\Git\\bin\\git.exe\""
   minimap:
@@ -80,7 +84,13 @@
       linterDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
+  "python-debugger":
+    pythonExecutable: "C:\\Python27\\python.exe"
+  script:
+    stopOnRerun: true
   "seti-ui":
+    compactView: true
+    disableAnimations: true
     themeColor: "Steel"
   "split-diff":
     leftEditorColor: "red"

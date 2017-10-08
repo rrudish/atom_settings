@@ -53,20 +53,28 @@ atom.commands.add 'atom-text-editor', 'custom:split-line-by-closures', ->
         o_brkt_idx = row_text.indexOf("[")
         c_brkt_idx = row_text.indexOf("]")
         complete_brkts = o_brkt_idx != -1 and c_brkt_idx != -1 and o_brkt_idx != c_brkt_idx - 1
-        if complete_parens and complete_brkts
-            if o_paren_idx < o_brkt_idx
-                new_lines = split_first_last(row_text, "(", ")")
-            else if o_paren_idx > o_brkt_idx
-                new_lines = split_first_last(row_text, "[", "]")
-        else if complete_parens
-            new_lines = split_first_last(row_text, "(", ")")
-        else if complete_brkts
-            new_lines = split_first_last(row_text, "[", "]")
-        else
+        o_brace_idx = row_text.indexOf("{")
+        c_brace_idx = row_text.indexOf("}")
+        complete_braces = o_brace_idx != -1 and c_brace_idx != -1 and o_brace_idx != c_brace_idx - 1
+        indecies = [o_paren_idx, o_brkt_idx, o_brace_idx]
+        indecies.sort()
+        indecies = indecies.filter (x) -> x != -1
+        console.log indecies
+        console.log complete_parens
+        console.log complete_brkts
+        console.log complete_braces
+        console.log indecies
+        if indecies == []
             continue
-        editor.setTextInBufferRange(
-            [[row, 0], [row, row_text.length]], new_lines.join("\n")
-        )
+        if complete_parens and o_paren_idx == indecies[0]
+            first = ["(", ")"]
+        else if complete_brkts and o_brkt_idx == indecies[0]
+            first = ["[", "]"]
+        else if complete_braces and o_brace_idx == indecies[0]
+            first = ["{", "}"]
+        console.log 'first', first
+        new_lines = split_first_last(row_text, first[0], first[1])
+        editor.setTextInBufferRange([[row, 0], [row, row_text.length]], new_lines.join("\n"))
         for _, n in long_lines
             long_lines[n] += 2
         cursor_pos = editor.getCursorScreenPositions()

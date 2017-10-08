@@ -30,24 +30,31 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+# '.editor:not([mini]).autocomplete-active':
+#     'enter': 'editor:newline'
+#     'tab': 'autocomplete-plus:confirm'
+# '.platform-win32 atom-text-editor':
 '.editor:not([mini])':
+  'shift-enter': 'snippets:next-tab-stop'
   'ctrl-space': 'bracket-matcher:go-to-matching-bracket'
+  'ctrl-shift-space': 'bracket-matcher:select-inside-brackets'
   'ctrl-shift-C': 'editor:toggle-line-comments'
   'alt-up': 'editor:add-selection-above'
   'alt-down': 'editor:add-selection-below'
   'ctrl-d': 'find-and-replace:select-next'
   'ctrl-shift-D': 'editor:delete-line'
-  'tab': 'custom:tab-new-line-or-indent'
   'ctrl-t': 'custom:test-sniper'
   'ctrl-i': 'custom:import-sniper'
   'ctrl-e': 'custom:split-line-by-closures'
   'ctrl-shift-e': 'custom:split-line-by-commas'
-'atom-text-editor':
+  'tab': 'custom:tab-new-line-or-indent'
+'.editor':
   'f1': 'bookmarks:toggle-bookmark'
   'f2': 'bookmarks:jump-to-next-bookmark'
   'f3': 'bookmarks:jump-to-previous-bookmark'
   'f4': 'bookmarks:clear-bookmarks'
-'atom-workspace atom-text-editor':
+  'alt-r': 'script:run'
+'atom-workspace .editor':
   'alt-left': 'pane:show-previous-item'
   'alt-right': 'pane:show-next-item'
   'alt-shift-left': 'window:focus-previous-pane'
@@ -55,5 +62,3 @@
   'ctrl-k left': 'pane:split-left-and-move-active-item'
   # 'ctrl-k right': 'window:move-active-item-to-pane-on-right'
   'ctrl-k right': 'pane:split-right-and-move-active-item'
-'atom-text-editor:not([mini])':
-  'shift-enter': 'snippets:next-tab-stop'
