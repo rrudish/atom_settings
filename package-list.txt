@@ -1,5 +1,4 @@
 activate-power-mode@2.5.0
-atom-beautify@0.30.5
 autocomplete-python@1.10.3
 busy-signal@1.4.3
 Chromodynamics@0.0.11

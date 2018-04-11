@@ -17,12 +17,16 @@
       muteUnsupportedLanguageErrors: true
     python:
       sort_imports: true
+  "autocomplete-plus":
+    autoActivationDelay: 100
+    enableAutoConfirmSingleSuggestion: false
+    enableBuiltinProvider: false
+    suggestionListFollows: "Cursor"
   "autocomplete-python":
     useKite: false
   "bracket-matcher":
     autocompleteBrackets: false
   core:
-    autoHideMenuBar: true
     disabledPackages: [
       "git-plus"
       "merge-conflicts"
@@ -40,12 +44,13 @@
       "seti-ui"
       "Chromodynamics"
     ]
+    uriHandlerRegistration: "always"
   "custom-title":
     template: "<%= relativeFilePath %>"
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 16
+    fontSize: 13
     invisibles: {}
     preferredLineLength: 79
     scrollPastEnd: true
@@ -90,7 +95,8 @@
     stopOnRerun: true
   "seti-ui":
     compactView: true
-    disableAnimations: true
+    displayIgnored: false
+    hideProjectTab: true
     themeColor: "Steel"
   "split-diff":
     leftEditorColor: "red"
@@ -108,6 +114,9 @@
   editor:
     preferredLineLength: 79
     tabLength: 4
+".json.source":
+  editor:
+    tabLength: 2
 ".kv.source":
   editor:
     preferredLineLength: 79

@@ -180,7 +180,8 @@ atom.commands.add 'atom-text-editor', 'custom:import-sniper', ->
           if selected_text != ""
             import_text = "from " + import_text + " import " + selected_text
           else
-            import_text = "import " + import_text
+            split_text = import_text.split(".")
+            import_text = "from " + split_text[0..-2].join(".") + " import " + split_text[-1..]
           atom.clipboard.write(import_text)
           atom.notifications.addInfo("Sniped:  " + import_text)
         break

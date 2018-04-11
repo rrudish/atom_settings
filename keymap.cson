@@ -39,6 +39,7 @@
   'ctrl-space': 'bracket-matcher:go-to-matching-bracket'
   'ctrl-shift-space': 'bracket-matcher:select-inside-brackets'
   'ctrl-shift-C': 'editor:toggle-line-comments'
+  'ctrl-shift-alt': 'expand-selection-to-quotes:toggle'
   'alt-up': 'editor:add-selection-above'
   'alt-down': 'editor:add-selection-below'
   'ctrl-d': 'find-and-replace:select-next'
